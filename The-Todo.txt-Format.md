@@ -1,10 +1,9 @@
-A brief primer on the whys and hows of @todo.txt@.
+
+A complete primer on the whys and hows of @todo.txt@.
 
 h2. Why plain text?
 
 Plain text is software and operating system agnostic. It's searchable, portable, lightweight and easily manipulated. It's unstructured. It works when someone else's web server is down or your Outlook .PST file is corrupt. Since it's been around since the dawn of computing, it's safe to say it's completely future-proof. There's no exporting and importing, no databases or tags or flags or stars or prioritizing or [Insert company name here]-induced rules on what you can and can't do with it.
-
-Todo.txt is a flat text file that contains one task per line, each optionally associated with a context, project and priority for slicing, dicing and sorting.
 
 h2. The 3 axes of an effective todo list
 
@@ -20,11 +19,21 @@ This is all possible inside todo.txt.
 
 In order to move along a project like "Cleaning out the garage," my task list should give me the next logical action to take in order to move that project along. "Clean out the garage" isn't a good todo item; but "Call Goodwill to schedule pickup" in the "Clean out garage" project is.
 
-*Context.* _Getting Things Done_ author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the "@email" context; calls to be made "@phone", household projects "@home."
+*Context.* _[[Getting Things Done|http://en.wikipedia.org/wiki/Getting_Things_Done]]_ author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the "@email" context; calls to be made "@phone", household projects "@home."
 
 That way, when you've got a few minutes in the car with your cell phone, you can easily check your "@phone" tasks and make a call or two while you have the opportunity.
 
-h2. Suggested Todo.txt format
+h2. Todo.txt format rules
+
+Todo.txt is a plain text file, but to take advantage of structured task metadata like priority, projects, context, creation and completion date, there are a few very simple but flexible file format rules.
+
+These rules make the todo.txt file both readable by humans, and easily parsed by tools like the [[Todo.txt Touch mobile app and Todo.txt Command Line interface|http://todotxt.com]]. This format has been developed and refined over the course of 5 years by the [[Todo.txt community|http://groups.yahoo.com/group/todotxt/]] of users and developers.
+
+The first and most important rule of todo.txt is: *_A single line in your todo.txt text file represents a single task._*
+
+Here are the rest.
+
+h2. Incomplete Tasks: 3 Format Rules
 
 The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (like @phone), project (like +GarageSale) and priority (like (A)). So, a todo.txt file might look like this:
 <pre>
@@ -48,6 +57,76 @@ A call to @todo.sh@ to just see the garage sale project items would return:
     +GarageSale @home post signs around the neighborhood
 </pre>
 
+
+There are three formatting rules for current to-do's.
+
+h3. Rule 1: If priority exists, it ALWAYS appears first. 
+
+The priority is an uppercase character from A-Z enclosed in parentheses and followed by a space.
+
+For example, this is a task with an A priority:
+
+<code>(A) Call Mom</code>
+
+These tasks have no priority:
+
+<code>Really gotta call Mom (A) @phone @someday</code>
+
+<code>(b)->get back to the boss</code>
+
+h3. Rule 2: A task's creation date may optionally appear directly after priority and a space.
+
+If there is no priority, the creation date appears first. If the creation date exists, it should be in the format YYYY-MM-DD.
+
+These tasks have creation dates:
+
+<code>2011-03-02 Document +TodoTxt task format</code>
+
+<code>(A) 2011-03-02 Call Mom</code>
+
+This task doesn't have a creation date:
+
+<code>(A) Call Mom 2011-03-02</code>
+ 
+h3. Rule 3: Contexts and Projects may appear anywhere in the line _after_ priority/prepended date.
+
+There may be more than one context or project. A project or context contains any non-whitespace character and must end
+in an alphanumeric or '_'. A context is preceded by an @ sign. A project is preceded by an plus + sign.
+
+For example, this task is part of the +Family and +PeaceLoveAndHappiness projects as well as the @iphone and @phone contexts:
+
+<code>(A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone</code>
+
+h2. Complete Tasks: 2 Format Rules
+
+Two things indicate that a task has been completed.
+
+h3. Rule 1: A completed task starts with an X.
+
+If a task starts with an X (case-insensitive) followed directly by a space, it is complete. Period.
+
+This is a complete task:
+
+<code>X 2011-03-03 Call Mom</code>
+
+This is not a complete task:
+
+<code>xylophone lesson</code>
+
+h3. Rule 2: The date of completion appears directly after the X, separated by a space.
+
+For example:
+
+<code>x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github</code>
+
+With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
+
+h2. Add-on File Format Definitions
+
+The Todo.txt CLI is extensible with add-ons. An add-on may define its own additional formatting rules for extra metadata. In general, add-on developers should use the format <code>key:value</code> to define additional metadata, for example, <code>due:2010-01-02</code> as a due date.
+
 h2. Other notations
 
-With @todo.sh@, you can choose any unique keyword search by it. For example, to indicate you're waiting on something to complete a task, append the word @WAIT@ to the item in @todo.txt@. Others like to add due dates to a task, @DUE:2006-08-01@. It's completely up to you. To view items by keyword, do @todo.sh list yourkeyword@.
+With @todo.sh@, you can choose any unique keyword search by it. For example, to indicate you're waiting on something to complete a task, append the word @WAIT@ to the item in @todo.txt@. Others like to add due dates to a task, @DUE:2006-08-01@. It's completely up to you. 
+
+Handy Tip: To view items by keyword in the [[Todo.txt Command Line interface|https://github.com/ginatrapani/todo.txt-cli/]], do @todo.sh list yourkeyword@.
