@@ -1,4 +1,3 @@
-
 A complete primer on the whys and hows of @todo.txt@.
 
 h2. Why plain text?
@@ -9,11 +8,7 @@ h2. The 3 axes of an effective todo list
 
 Using special notation in todo.txt, you can create a list that's sliceable by 3 key axes.
 
-*Priority.* Your todo list should be able to tell you what's the next most important thing for you to get done - either by project or by context or overall.
-
-Optionally assign tasks a priority that'll bubble them up to the top of the list.
-
-This is all possible inside todo.txt.
+*Priority.* Your todo list should be able to tell you what's the next most important thing for you to get done - either by project or by context or overall. You can optionally assign tasks a priority that'll bubble them up to the top of the list.
 
 *Project.* The only way to move a big project forward is to tackle a small subtask associated with it. Your todo.txt should be able to list out all the tasks specific to a project.
 
@@ -22,6 +17,8 @@ In order to move along a project like "Cleaning out the garage," my task list sh
 *Context.* _[[Getting Things Done|http://en.wikipedia.org/wiki/Getting_Things_Done]]_ author David Allen suggests splitting up your task lists by context - ie, the place and situation where you'll work on the job. Messages that you need to send go in the "@email" context; calls to be made "@phone", household projects "@home."
 
 That way, when you've got a few minutes in the car with your cell phone, you can easily check your "@phone" tasks and make a call or two while you have the opportunity.
+
+This is all possible inside todo.txt.
 
 h2. Todo.txt format rules
 
@@ -36,6 +33,7 @@ Here are the rest.
 h2. Incomplete Tasks: 3 Format Rules
 
 The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (like @phone), project (like +GarageSale) and priority (like (A)). So, a todo.txt file might look like this:
+
 <pre>
     (A) @phone thank Mom for the meatballs
     (B) +GarageSale @phone schedule Goodwill pickup
@@ -70,9 +68,11 @@ For example, this is a task with an A priority:
 
 These tasks have no priority:
 
-<code>Really gotta call Mom (A) @phone @someday</code>
-
-<code>(b)->get back to the boss</code>
+<pre>
+    Really gotta call Mom (A) @phone @someday
+    (b) Get back to the boss
+    (B)->Submit TPS report
+</pre>
 
 h3. Rule 2: A task's creation date may optionally appear directly after priority and a space.
 
@@ -80,9 +80,10 @@ If there is no priority, the creation date appears first. If the creation date e
 
 These tasks have creation dates:
 
-<code>2011-03-02 Document +TodoTxt task format</code>
-
-<code>(A) 2011-03-02 Call Mom</code>
+<pre>
+    2011-03-02 Document +TodoTxt task format
+    (A) 2011-03-02 Call Mom
+</pre>
 
 This task doesn't have a creation date:
 
@@ -101,19 +102,24 @@ h2. Complete Tasks: 2 Format Rules
 
 Two things indicate that a task has been completed.
 
-h3. Rule 1: A completed task starts with an X.
+h3. Rule 1: A completed task starts with an x.
 
-If a task starts with an X (case-insensitive) followed directly by a space, it is complete. Period.
+If a task starts with an x (case-sensitive lowercase) followed directly by a space, it is complete. Period.
 
 This is a complete task:
 
-<code>X 2011-03-03 Call Mom</code>
+<code>x 2011-03-03 Call Mom</code>
 
-This is not a complete task:
+These are not complete tasks.
 
-<code>xylophone lesson</code>
+<pre>
+    xylophone lesson
+    X 2012-01-01 Make resolutions
+</pre>
 
-h3. Rule 2: The date of completion appears directly after the X, separated by a space.
+We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
+
+h3. Rule 2: The date of completion appears directly after the x, separated by a space.
 
 For example:
 
