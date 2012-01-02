@@ -35,24 +35,24 @@ h2. Incomplete Tasks: 3 Format Rules
 The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (like @phone), project (like +GarageSale) and priority (like (A)). So, a todo.txt file might look like this:
 
 <pre>
-    (A) @phone thank Mom for the meatballs
-    (B) +GarageSale @phone schedule Goodwill pickup
-    +GarageSale @home post signs around the neighborhood
-    @shopping Eskimo pies
+    (A) Thank Mom for the meatballs @phone 
+    (B) Schedule Goodwill pickup +GarageSale @phone
+    Post signs around the neighborhood +GarageSale
+    @GroceryStore Eskimo pies
 </pre>
 
 A script that perhaps slices out the @@phone@ contextual items and emails them to your mobile phone, for instance, would just output:
 
 <pre>
-    (A) @phone thank Mom for the meatballs
-    (B) +GarageSale @phone schedule Goodwill pickup
+    (A) Thank Mom for the meatballs @phone 
+    (B) Schedule Goodwill pickup +GarageSale @phone
 </pre>
 
 A call to @todo.sh@ to just see the garage sale project items would return:
 
 <pre>
-    (B) +GarageSale @phone schedule Goodwill pickup
-    +GarageSale @home post signs around the neighborhood
+    (B) Schedule Goodwill pickup +GarageSale @phone
+    Post signs around the neighborhood +GarageSale
 </pre>
 
 
