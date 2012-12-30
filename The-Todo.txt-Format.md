@@ -2,7 +2,7 @@ A complete primer on the whys and hows of @todo.txt@.
 
 h2. Why plain text?
 
-Plain text is software and operating system agnostic. It's searchable, portable, lightweight and easily manipulated. It's unstructured. It works when someone else's web server is down or your Outlook .PST file is corrupt. Since it's been around since the dawn of computing, it's safe to say it's completely future-proof. There's no exporting and importing, no databases or tags or flags or stars or prioritizing or [Insert company name here]-induced rules on what you can and can't do with it.
+Plain text is software and operating system agnostic. It's searchable, portable, lightweight and easily manipulated. It's unstructured. It works when someone else's web server is down or your Outlook .PST file is corrupt. There's no exporting and importing, no databases or tags or flags or stars or prioritizing or [Insert company name here]-induced rules on what you can and can't do with it.
 
 h2. The 3 axes of an effective todo list
 
