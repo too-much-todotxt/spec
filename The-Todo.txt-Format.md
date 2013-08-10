@@ -22,9 +22,14 @@ This is all possible inside todo.txt.
 
 h2. Todo.txt format rules
 
-Todo.txt is a plain text file, but to take advantage of structured task metadata like priority, projects, context, creation and completion date, there are a few very simple but flexible file format rules.
+Your Todo.txt is a plain text file. To take advantage of structured task metadata like priority, projects, context, creation and completion date, there are a few simple but flexible file format rules.
 
-These rules make the todo.txt file both readable by humans, and easily parsed by tools like the [[Todo.txt Touch mobile app and Todo.txt Command Line interface|http://todotxt.com]]. This format has been developed and refined over the course of 5 years by the [[Todo.txt community|http://groups.yahoo.com/group/todotxt/]] of users and developers.
+Philosophically, the Todo.txt file format has two goals:
+
+* The file contents should be human-readable without requiring any tools other than a plain text viewer or editor.
+* A user can manipulate the file contents in a plain text editor in sensible, expected ways. For example, a text editor that can sort lines alphabetically should be able to sort your task list in a meaningful way. 
+
+(These two goals are why, for example, lines start with priority and/or dates, so that they are easily sorted by priority or time, and completed items are marked with an x, which both sorts at the bottom of an alphabetical list AND looks like a filled-in checkbox.)
 
 The first and most important rule of todo.txt is: *_A single line in your todo.txt text file represents a single task._*
 
