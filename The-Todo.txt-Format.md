@@ -109,7 +109,7 @@ Two things indicate that a task has been completed.
 
 h3. Rule 1: A completed task starts with an x.
 
-If a task starts with an x (case-sensitive lowercase) followed directly by a space, it is complete. Period.
+If a task starts with an x (case-sensitive lowercase) followed directly by a space, it is complete.
 
 This is a complete task:
 
@@ -120,6 +120,7 @@ These are not complete tasks.
 <pre>
     xylophone lesson
     X 2012-01-01 Make resolutions
+    x (A) Find ticket prices
 </pre>
 
 We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
