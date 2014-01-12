@@ -120,7 +120,7 @@ These are not complete tasks.
 <pre>
     xylophone lesson
     X 2012-01-01 Make resolutions
-    x (A) Find ticket prices
+    (A) x Find ticket prices
 </pre>
 
 We use a lowercase x so that completed tasks sort to the bottom of the task list using standard sort tools.
