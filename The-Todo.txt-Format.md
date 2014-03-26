@@ -131,6 +131,8 @@ For example:
 
 <code>x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github</code>
 
+If you've prepended the creation date to your task, on completion it will appear directly after the completion date. This is so your completed tasks sort by date sensibly using standard tools. Often, priority is discarded on task completion - but to preserve it, use the key:value format (for example, prio:A) to preserve it.
+
 With the completed date (required), if you've used the prepended date (optional), you can calculate how many days it took to complete a task. 
 
 h2. Add-on File Format Definitions
