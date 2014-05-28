@@ -96,7 +96,7 @@ This task doesn't have a creation date:
  
 h3. Rule 3: Contexts and Projects may appear anywhere in the line _after_ priority/prepended date.
 
-A context is preceded by a single space and an @ sign. A project is preceded by a single space and a plus + sign. A project or context contains any non-whitespace character. A context is preceded by an @ sign. A project is preceded by a plus + sign.
+A context is preceded by a single space and an @ sign. A project is preceded by a single space and a plus + sign. A project or context contains any non-whitespace character. A task may have zero, one, or more than one projects and contexts included in it.
 
 For example, this task is part of the +Family and +PeaceLoveAndHappiness projects as well as the @iphone and @phone contexts:
 
