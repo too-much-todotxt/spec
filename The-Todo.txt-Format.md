@@ -96,12 +96,19 @@ This task doesn't have a creation date:
  
 h3. Rule 3: Contexts and Projects may appear anywhere in the line _after_ priority/prepended date.
 
-There may be more than one context or project. A project or context contains any non-whitespace character and must end
-in an alphanumeric or '_'. A context is preceded by an @ sign. A project is preceded by a plus + sign.
+A context is preceded by a single space and an @ sign. A project is preceded by a single space and a plus + sign. A project or context contains any non-whitespace character. A context is preceded by an @ sign. A project is preceded by a plus + sign.
 
 For example, this task is part of the +Family and +PeaceLoveAndHappiness projects as well as the @iphone and @phone contexts:
 
 <code>(A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone</code>
+
+This task has no contexts in it:
+
+<code>Email SoAndSo at soandso@example.com</code>
+
+This task has no projects in it:
+
+<code>Learn how to add 2+2</code>
 
 h2. Complete Tasks: 2 Format Rules
 
