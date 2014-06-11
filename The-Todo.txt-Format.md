@@ -144,7 +144,7 @@ With the completed date (required), if you've used the prepended date (optional)
 
 h2. Add-on File Format Definitions
 
-The Todo.txt CLI is extensible with add-ons. An add-on may define its own additional formatting rules for extra metadata. In general, add-on developers should use the format <code>key:value</code> to define additional metadata, for example, <code>due:2010-01-02</code> as a due date.
+The Todo.txt CLI is extensible with add-ons. An add-on may define its own additional formatting rules for extra metadata. In general, add-on developers should use the format <code>key:value</code> to define additional metadata, for example, <code>due:2010-01-02</code> as a due date. Both key and value must consist of non-whitespace characters, which are not colons. Only one colon separates the key and value.
 
 h2. Other notations
 
