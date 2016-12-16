@@ -22,7 +22,7 @@ This is all possible inside todo.txt.
 
 h2. Todo.txt format rules
 
-Your Todo.txt is a plain text file. To take advantage of structured task metadata like priority, projects, context, creation and completion date, there are a few simple but flexible file format rules.
+<img align="right" src="https://snydergd.github.io/todo.txt_summary.svg" alt="Format Quick Reference Image"></span>Your Todo.txt is a plain text file. To take advantage of structured task metadata like priority, projects, context, creation and completion date, there are a few simple but flexible file format rules.
 
 Philosophically, the Todo.txt file format has two goals:
 
