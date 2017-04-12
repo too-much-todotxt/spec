@@ -37,7 +37,7 @@ Here are the rest.
 
 h2. Incomplete Tasks: 3 Format Rules
 
-The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (like @phone), project (like +GarageSale) and priority (like (A)). So, a todo.txt file might look like this:
+The beauty of todo.txt is that it's completely unstructured; the fields you can attach to each task are only limited by your imagination. To get started, use special notation to indicate task context (like `@phone`), project (like `+GarageSale`) and priority (like `(A)`). So, a todo.txt file might look like this:
 
 <pre>
     (A) Thank Mom for the meatballs @phone 
