@@ -127,8 +127,8 @@ This task doesn't have a creation date:
 
 ### Rule 3: Contexts and Projects may appear anywhere in the line *after* priority/prepended date.
 
-A context is preceded by a single space and an @ sign. A project is
-preceded by a single space and a plus + sign. A project or context
+A context is preceded by a single space and an `@` sign. A project is
+preceded by a single space and a plus `+` sign. A project or context
 contains any non-whitespace character. A task may have zero, one, or
 more than one projects and contexts included in it.
 
