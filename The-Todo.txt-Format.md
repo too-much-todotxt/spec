@@ -34,7 +34,7 @@ that project along. "Clean out the garage" isn't a good todo item; but
 [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
 Allen suggests splitting up your task lists by context - ie, the place
 and situation where you'll work on the job. Messages that you need to
-send go in the "`email" context; calls to be made "`phone", household
+send go in the "@email" context; calls to be made "@phone", household
 projects "@home."
 
 That way, when you've got a few minutes in the car with your cell phone,
