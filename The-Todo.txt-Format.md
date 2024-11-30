@@ -6,7 +6,7 @@ Plain text is software and operating system agnostic. It's searchable,
 portable, lightweight and easily manipulated. It's unstructured. It
 works when someone else's web server is down or your Outlook .PST file
 is corrupt. There's no exporting and importing, no databases or tags or
-flags or stars or prioritizing or \[Insert company name here\]-induced
+flags or stars or prioritizing or _Insert company name here_-induced
 rules on what you can and can't do with it.
 
 ## The 3 axes of an effective todo list
