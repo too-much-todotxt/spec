@@ -14,12 +14,14 @@ rules on what you can and can't do with it.
 Using special notation in todo.txt, you can create a list that's
 sliceable by 3 key axes.
 
-**Priority.** Your todo list should be able to tell you what's the next
+### Priority
+Your todo list should be able to tell you what's the next
 most important thing for you to get done - either by project or by
 context or overall. You can optionally assign tasks a priority that'll
 bubble them up to the top of the list.
 
-**Project.** The only way to move a big project forward is to tackle a
+### Project
+The only way to move a big project forward is to tackle a
 small subtask associated with it. Your todo.txt should be able to list
 out all the tasks specific to a project.
 
@@ -28,7 +30,8 @@ list should give me the next logical action to take in order to move
 that project along. "Clean out the garage" isn't a good todo item; but
 "Call Goodwill to schedule pickup" in the "Clean out garage" project is.
 
-**Context.** [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
+### Context
+[Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
 Allen suggests splitting up your task lists by context - ie, the place
 and situation where you'll work on the job. Messages that you need to
 send go in the "`email" context; calls to be made "`phone", household
@@ -74,22 +77,22 @@ started, use special notation to indicate task context (like \`@phone\`
 ), project (like \`+GarageSale\` ) and priority (like \`(A)\` ). So, a
 todo.txt file might look like this:
 
-        (A) Thank Mom for the meatballs @phone 
-        (B) Schedule Goodwill pickup +GarageSale @phone
-        Post signs around the neighborhood +GarageSale
-        @GroceryStore Eskimo pies
+    (A) Thank Mom for the meatballs @phone
+    (B) Schedule Goodwill pickup +GarageSale @phone
+    Post signs around the neighborhood +GarageSale
+    @GroceryStore Eskimo pies
 
 A script that perhaps slices out the @`phone` contextual items and
 emails them to your mobile phone, for instance, would just output:
 
-        (A) Thank Mom for the meatballs @phone 
-        (B) Schedule Goodwill pickup +GarageSale @phone
+    (A) Thank Mom for the meatballs @phone 
+    (B) Schedule Goodwill pickup +GarageSale @phone
 
 A call to `todo.sh` to just see the garage sale project items would
 return:
 
-        (B) Schedule Goodwill pickup +GarageSale @phone
-        Post signs around the neighborhood +GarageSale
+    (B) Schedule Goodwill pickup +GarageSale @phone
+    Post signs around the neighborhood +GarageSale
 
 There are three formatting rules for current to-do's.
 
@@ -100,13 +103,13 @@ and followed by a space.
 
 For example, this is a task with an A priority:
 
-<code>(A) Call Mom</code>
+    (A) Call Mom
 
 These tasks have no priority:
 
-        Really gotta call Mom (A) @phone @someday
-        (b) Get back to the boss
-        (B)->Submit TPS report
+    Really gotta call Mom (A) @phone @someday
+    (b) Get back to the boss
+    (B)->Submit TPS report
 
 ### Rule 2: A task's creation date may optionally appear directly after priority and a space.
 
@@ -115,12 +118,12 @@ creation date exists, it should be in the format YYYY-MM-DD.
 
 These tasks have creation dates:
 
-        2011-03-02 Document +TodoTxt task format
-        (A) 2011-03-02 Call Mom
+    2011-03-02 Document +TodoTxt task format
+    (A) 2011-03-02 Call Mom
 
 This task doesn't have a creation date:
 
-<code>(A) Call Mom 2011-03-02</code>
+    (A) Call Mom 2011-03-02
 
 ### Rule 3: Contexts and Projects may appear anywhere in the line *after* priority/prepended date.
 
@@ -136,11 +139,11 @@ projects as well as the `iphone and `phone contexts:
 
 This task has no contexts in it:
 
-<code>Email SoAndSo at soandso@example.com</code>
+    Email SoAndSo at soandso@example.com
 
 This task has no projects in it:
 
-<code>Learn how to add 2+2</code>
+    Learn how to add 2+2
 
 ## Complete Tasks: 2 Format Rules
 
@@ -153,13 +156,13 @@ by a space, it is complete.
 
 This is a complete task:
 
-<code>x 2011-03-03 Call Mom</code>
+    x 2011-03-03 Call Mom
 
 These are not complete tasks.
 
-        xylophone lesson
-        X 2012-01-01 Make resolutions
-        (A) x Find ticket prices
+    xylophone lesson
+    X 2012-01-01 Make resolutions
+    (A) x Find ticket prices
 
 We use a lowercase x so that completed tasks sort to the bottom of the
 task list using standard sort tools.
@@ -168,8 +171,7 @@ task list using standard sort tools.
 
 For example:
 
-<code>x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch
-@github</code>
+    x 2011-03-02 2011-03-01 Review Tim's pull request +TodoTxtTouch @github
 
 If you've prepended the creation date to your task, on completion it
 will appear directly after the completion date. This is so your
