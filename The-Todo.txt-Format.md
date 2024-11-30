@@ -73,8 +73,8 @@ Here are the rest.
 
 The beauty of todo.txt is that it's completely unstructured; the fields
 you can attach to each task are only limited by your imagination. To get
-started, use special notation to indicate task context (like \`@phone\`
-), project (like \`+GarageSale\` ) and priority (like \`(A)\` ). So, a
+started, use special notation to indicate task context (like `@phone`
+), project (like `+GarageSale` ) and priority (like `(A)` ). So, a
 todo.txt file might look like this:
 
     (A) Thank Mom for the meatballs @phone
