@@ -82,7 +82,7 @@ todo.txt file might look like this:
     Post signs around the neighborhood +GarageSale
     @GroceryStore Eskimo pies
 
-A script that perhaps slices out the @`phone` contextual items and
+A script that perhaps slices out the `@phone` contextual items and
 emails them to your mobile phone, for instance, would just output:
 
     (A) Thank Mom for the meatballs @phone 
@@ -133,7 +133,7 @@ contains any non-whitespace character. A task may have zero, one, or
 more than one projects and contexts included in it.
 
 For example, this task is part of the +Family and +PeaceLoveAndHappiness
-projects as well as the `iphone and `phone contexts:
+projects as well as the `@iphone` and `@phone` contexts:
 
     (A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
 
