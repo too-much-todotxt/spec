@@ -34,11 +34,11 @@ that project along. "Clean out the garage" isn't a good todo item; but
 [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
 Allen suggests splitting up your task lists by context - ie, the place
 and situation where you'll work on the job. Messages that you need to
-send go in the "@email" context; calls to be made "@phone", household
-projects "@home."
+send go in the `@email` context; calls to be made `@phone`, household
+projects `@home`.
 
 That way, when you've got a few minutes in the car with your cell phone,
-you can easily check your "@phone" tasks and make a call or two while
+you can easily check your `@phone` tasks and make a call or two while
 you have the opportunity.
 
 This is all possible inside todo.txt.
@@ -132,7 +132,7 @@ preceded by a single space and a plus + sign. A project or context
 contains any non-whitespace character. A task may have zero, one, or
 more than one projects and contexts included in it.
 
-For example, this task is part of the +Family and +PeaceLoveAndHappiness
+For example, this task is part of the `+Family` and `+PeaceLoveAndHappiness`
 projects as well as the `@iphone` and `@phone` contexts:
 
     (A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
