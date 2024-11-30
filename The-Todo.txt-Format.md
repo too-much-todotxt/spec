@@ -135,7 +135,7 @@ more than one projects and contexts included in it.
 For example, this task is part of the +Family and +PeaceLoveAndHappiness
 projects as well as the `iphone and `phone contexts:
 
-<code>(A) Call Mom +Family +PeaceLoveAndHappiness `iphone `phone</code>
+    (A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
 
 This task has no contexts in it:
 
@@ -186,8 +186,8 @@ With the completed date (required), if you've used the prepended date
 
 The Todo.txt CLI is extensible with add-ons. An add-on may define its
 own additional formatting rules for extra metadata. In general, add-on
-developers should use the format <code>key:value</code> to define
-additional metadata, for example, <code>due:2010-01-02</code> as a due
+developers should use the format `key:value` to define
+additional metadata, for example, `due:2010-01-02` as a due
 date. Both key and value must consist of non-whitespace characters,
 which are not colons. Only one colon separates the key and value.
 
