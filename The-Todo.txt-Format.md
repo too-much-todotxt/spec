@@ -28,8 +28,7 @@ list should give me the next logical action to take in order to move
 that project along. "Clean out the garage" isn't a good todo item; but
 "Call Goodwill to schedule pickup" in the "Clean out garage" project is.
 
-**Context.** *\[\[Getting Things
-Done\|http://en.wikipedia.org/wiki/Getting_Things_Done\]\]* author David
+**Context.** [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
 Allen suggests splitting up your task lists by context - ie, the place
 and situation where you'll work on the job. Messages that you need to
 send go in the "`email" context; calls to be made "`phone", household
