@@ -197,6 +197,5 @@ example, to indicate you're waiting on something to complete a task,
 append the word `WAIT` to the item in `todo.txt`. Others like to add due
 dates to a task, `DUE:2006-08-01`. It's completely up to you.
 
-Handy Tip: To view items by keyword in the \[\[Todo.txt Command Line
-interface\|https://github.com/ginatrapani/todo.txt-cli/\]\], do
+Handy Tip: To view items by keyword in the [Todo.txt Command Line interface](https://github.com/todotxt/todo.txt-cli), do
 `todo.sh list yourkeyword`.
