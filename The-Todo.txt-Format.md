@@ -58,6 +58,22 @@ This is all possible inside `todo.txt`.
 
 <img align="right" src="./todo.txt_summary.svg" alt="Format Quick Reference Image">
 
+```
+┌───────────────────────────────── Optional - Marks completion
+│  ┌────────────────────────────── Optional - Marks priority
+│  │      ┌─────────────────────── Optional - Completion date
+│  │      │          ┌──────────── Optional - Creation date
+│  │      │          │             (must be specified if completion date is)
+│  │      │          │        ┌─── Mandatory - Description
+│  │      │          │        │    Tags (optional) can be placed anywhere within it
+│ ┌┴┐ ┌───┴────┐ ┌───┴────┐ ┌─┴────────────────────────────────────────────────────┐
+x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30
+                                              └──────┬──────┘ └──┬──┘ └──────┬─────┘
+                                   project tag ──────┘           │           │
+                                   context tag ──────────────────┘           │
+                                   special key-value tag ────────────────────┘
+```
+
 Your `todo.txt` is a plain text file. To take advantage of structured
 task metadata like priority, projects, context, creation, and completion
 date, there are a few simple but flexible file format rules.
