@@ -1,4 +1,10 @@
+# todo.txt format
+
 A complete primer on the whys and hows of `todo.txt`.
+
+The first and most important rule of todo.txt:
+
+> A single line in your todo.txt text file represents a single task.
 
 ## Why plain text?
 
@@ -67,9 +73,6 @@ These two goals are why, for example, lines start with priority and/or
 dates, so that they are easily sorted by priority or time, and completed
 items are marked with an `x`, which both sorts at the bottom of an
 alphabetical list and looks like a filled-in checkbox.
-
-The first and most important rule of todo.txt is: ***A single line in
-your todo.txt text file represents a single task.***
 
 Here are the rest.
 
