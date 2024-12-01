@@ -44,9 +44,9 @@ That way, when you've got a few minutes in the car with your cell phone,
 you can easily check your `@phone` tasks and make a call or two while
 you have the opportunity.
 
-This is all possible inside todo.txt.
+This is all possible inside `todo.txt`.
 
-## Todo.txt format rules
+## `todo.txt` format rules
 
 <img align="right" src="./todo.txt_summary.svg" alt="Format Quick Reference Image"></span>Your
 Todo.txt is a plain text file. To take advantage of structured task
@@ -115,7 +115,7 @@ These tasks have no priority:
 ### Rule 2: A task's creation date may optionally appear directly after priority and a space.
 
 If there is no priority, the creation date appears first. If the
-creation date exists, it should be in the format YYYY-MM-DD.
+creation date exists, it should be in the format `YYYY-MM-DD`.
 
 These tasks have creation dates:
 
