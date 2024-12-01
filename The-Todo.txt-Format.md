@@ -63,10 +63,10 @@ Philosophically, the `todo.txt` file format has two goals:
   lines alphabetically should be able to sort your task list in a
   meaningful way.
 
-(These two goals are why, for example, lines start with priority and/or
+These two goals are why, for example, lines start with priority and/or
 dates, so that they are easily sorted by priority or time, and completed
-items are marked with an x, which both sorts at the bottom of an
-alphabetical list AND looks like a filled-in checkbox.)
+items are marked with an `x`, which both sorts at the bottom of an
+alphabetical list and looks like a filled-in checkbox.
 
 The first and most important rule of todo.txt is: ***A single line in
 your todo.txt text file represents a single task.***
