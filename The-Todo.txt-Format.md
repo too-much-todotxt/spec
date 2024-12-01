@@ -180,26 +180,18 @@ If you've prepended the creation date to your task, on completion it
 will appear directly after the completion date. This is so your
 completed tasks sort by date using standard sort tools. Many Todo.txt
 clients discard priority on task completion. To preserve it, use the
-key:value format described below (for example, pri:A)
+`key:value` format described below (for example, `pri:A`)
 
 With the completed date (required), if you've used the prepended date
 (optional), you can calculate how many days it took to complete a task.
 
-## Add-on File Format Definitions
+## Additional File Format Definitions
 
-The Todo.txt CLI is extensible with add-ons. An add-on may define its
-own additional formatting rules for extra metadata. In general, add-on
-developers should use the format `key:value` to define
-additional metadata, for example, `due:2010-01-02` as a due
-date. Both key and value must consist of non-whitespace characters,
-which are not colons. Only one colon separates the key and value.
+Tool developers may define additional formatting rules for extra
+metadata.
 
-## Other notations
+Developers should use the format `key:value` to define additional
+metadata (e.g. `due:2010-01-02` as a due date).
 
-With `todo.sh`, you can choose any unique keyword, and search by it. For
-example, to indicate you're waiting on something to complete a task,
-append the word `WAIT` to the item in `todo.txt`. Others like to add due
-dates to a task, `DUE:2006-08-01`. It's completely up to you.
-
-Handy Tip: To view items by keyword in the [Todo.txt Command Line interface](https://github.com/todotxt/todo.txt-cli), do
-`todo.sh list yourkeyword`.
+Both `key` and `value` must consist of non-whitespace characters, which
+are not colons. Only one colon separates the `key` and `value`.
