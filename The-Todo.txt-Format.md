@@ -1,3 +1,5 @@
+-*- coding: utf-8 -*-
+
 # todo.txt format
 
 A complete primer on the whys and hows of `todo.txt`.
