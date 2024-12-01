@@ -2,6 +2,8 @@
 
 A complete primer on the whys and hows of `todo.txt`.
 
+Latest version located at https://github.com/too-much-todotxt/spec/blob/main/The-Todo.txt-Format.md
+
 The first and most important rule of todo.txt:
 
 > A single line in your todo.txt text file represents a single task.
