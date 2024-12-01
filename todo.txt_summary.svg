@@ -1,311 +1,38 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="463.89737"
-   height="280.07312"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="todo.txt_summary.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4"
-     inkscape:cx="235.41179"
-     inkscape:cy="105.23723"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     inkscape:snap-bbox="true"
-     inkscape:bbox-nodes="true"
-     inkscape:snap-global="false"
-     inkscape:snap-center="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0"
-     inkscape:window-width="1362"
-     inkscape:window-height="745"
-     inkscape:window-x="0"
-     inkscape:window-y="19"
-     inkscape:window-maximized="1">
-    <sodipodi:guide
-       orientation="0,1"
-       position="66.711496,124.61922"
-       id="guide3131" />
-  </sodipodi:namedview>
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(-46.775087,-262.04256)">
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:20px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       x="301.42856"
-       y="451.29074"
-       id="text3090"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         x="301.42856"
-         y="451.29074"
-         id="tspan3094" /></text>
-    <g
-       id="g3133"
-       transform="translate(-34.029935,-1.1748796e-5)">
-      <g
-         inkscape:transform-center-y="9.7427449"
-         inkscape:transform-center-x="-203.90763"
-         transform="matrix(1,-2.4777022e-5,2.4777022e-5,1,-36.408967,30.206604)"
-         id="g3034">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           x="119.70308"
-           y="409.90515"
-           id="text2985"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             id="tspan2987"
-             x="119.70308"
-             y="409.90515">x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:7.80524349px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           x="-200.58185"
-           y="253.76947"
-           id="text2989"
-           sodipodi:linespacing="125%"
-           transform="matrix(0,-2.0094681,0.49764413,0,0,0)"><tspan
-             sodipodi:role="line"
-             x="-200.58185"
-             y="253.76947"
-             id="tspan2993"
-             style="font-size:17.1715374px">}</tspan></text>
-        <text
-           transform="matrix(0,-1.5740315,0.63531131,0,0,0)"
-           sodipodi:linespacing="125%"
-           id="text3018"
-           y="221.64197"
-           x="-256.0704"
-           style="font-style:normal;font-weight:normal;font-size:9.96446896px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve"><tspan
-             style="font-size:21.92183304px"
-             id="tspan3020"
-             y="221.64197"
-             x="-256.0704"
-             sodipodi:role="line">}</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:20.72961617px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           x="-532.7168"
-           y="147.06606"
-           id="text3022"
-           sodipodi:linespacing="125%"
-           transform="matrix(-1.2724129e-6,-0.75661735,1.321672,2.0813998e-6,0,0)"><tspan
-             sodipodi:role="line"
-             x="-532.7168"
-             y="147.06606"
-             id="tspan3024"
-             style="font-size:45.60516357px">}</tspan></text>
-        <text
-           transform="matrix(-2.3011993e-6,-0.73681278,1.3571969,3.7642779e-6,0,0)"
-           sodipodi:linespacing="125%"
-           id="text3026"
-           y="188.5956"
-           x="-547.03522"
-           style="font-style:normal;font-weight:normal;font-size:21.28680229px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           xml:space="preserve"><tspan
-             style="font-size:46.83097076px"
-             id="tspan3028"
-             y="188.5956"
-             x="-547.03522"
-             sodipodi:role="line">}</tspan></text>
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-weight:normal;font-size:48.74345016px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-           x="-1262.5446"
-           y="167.7646"
-           id="text3030"
-           sodipodi:linespacing="125%"
-           transform="matrix(-4.6013238e-6,-0.31917467,3.1330807,2.8554274e-5,0,0)"><tspan
-             sodipodi:role="line"
-             x="-1262.5446"
-             y="167.7646"
-             id="tspan3032"
-             style="font-size:107.23558044px">}</tspan></text>
-      </g>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3048"
-         y="350.36304"
-         x="-229.22713"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="350.36304"
-           x="-229.22713"
-           id="tspan3050"
-           sodipodi:role="line">Optional -- Marks completion</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3052"
-         y="364.16226"
-         x="-214.41087"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="364.16226"
-           x="-214.41087"
-           id="tspan3054"
-           sodipodi:role="line">Optional -- Marks priority</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3056"
-         y="386.94785"
-         x="-190.49945"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="386.94785"
-           x="-190.49945"
-           id="tspan3058"
-           sodipodi:role="line">Optional -- Completion Date</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3062"
-         y="418.16605"
-         x="-148.73158"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="418.16605"
-           x="-148.73158"
-           id="tspan3064"
-           sodipodi:role="line">Optional -- Creation Date</tspan><tspan
-           id="tspan3076"
-           y="430.66605"
-           x="-148.73158"
-           sodipodi:role="line">(must be specified if completion date is)</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3066"
-         y="552.26129"
-         x="-17.793436"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           id="tspan3129"
-           y="552.26129"
-           x="-17.793436"
-           sodipodi:role="line">Description; tags (optional)</tspan><tspan
-           y="564.76129"
-           x="-17.793436"
-           sodipodi:role="line"
-           id="tspan3174">can be placed anywhere in here</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3072"
-         y="596.66608"
-         x="-118.56848"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="596.66608"
-           x="-118.56848"
-           id="tspan3074"
-           sodipodi:role="line">Project Tag</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3078"
-         y="645.20404"
-         x="-75.493629"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="645.20404"
-           x="-75.493629"
-           id="tspan3080"
-           sodipodi:role="line">Context Tag</tspan></text>
-      <text
-         transform="matrix(0.70710678,-0.70710678,0.70710678,0.70710678,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3082"
-         y="688.64587"
-         x="-78.539047"
-         style="font-style:normal;font-weight:normal;font-size:10px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           y="688.64587"
-           x="-78.539047"
-           id="tspan3084"
-           sodipodi:role="line">Special key/value tag</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:25.3080349px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="714.68823"
-         y="246.69998"
-         id="text3030-4"
-         sodipodi:linespacing="125%"
-         transform="matrix(-6.4425815e-6,0.61973949,1.6135812,9.5286949e-5,0,0)"><tspan
-           sodipodi:role="line"
-           x="714.68823"
-           y="246.69998"
-           id="tspan3032-0"
-           style="font-size:55.67767334px">}</tspan></text>
-      <text
-         transform="matrix(-4.6350168e-6,0.86142562,1.1608663,1.3244697e-4,0,0)"
-         sodipodi:linespacing="125%"
-         id="text3119"
-         y="390.50531"
-         x="514.13879"
-         style="font-style:normal;font-weight:normal;font-size:18.20747757px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:40.05644989px"
-           id="tspan3121"
-           y="390.50531"
-           x="514.13879"
-           sodipodi:role="line">}</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:24.98435783px;line-height:125%;font-family:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-         x="705.53412"
-         y="332.98566"
-         id="text3123"
-         sodipodi:linespacing="125%"
-         transform="matrix(-6.3601841e-6,0.62776832,1.5929443,9.6521403e-5,0,0)"><tspan
-           sodipodi:role="line"
-           x="705.53412"
-           y="332.98566"
-           id="tspan3125"
-           style="font-size:54.96557999px">}</tspan></text>
-    </g>
-  </g>
+<svg xmlns="http://www.w3.org/2000/svg" id="svg2" viewBox="0 0 632.2 281">
+    <style>
+        .st0{font-family:Courier;font-size:12px;}
+        .st1{fill:none;stroke:#000000;stroke-miterlimit:10;}
+        .st2{font-family:Arial;font-size:10px;}
+    </style>
+    <rect width="100%" height="100%" fill="#FFF"/>
+    <text class="st0" transform="translate(4.024 172.96)">
+        x (A) 2016-05-20 2016-04-30 measure space for +chapelShelving @chapel due:2016-05-30
+    </text>
+    <path d="M15.2 159v-6H.5v6m36 0v-6H21.8v6m96.5 0v-6H47.5v6m149.3 0v-6H126v6m483.7.2V153H206v6.1m238.7 22.8v7.2H335V182m274.7-.1v7.2H509V182m-7.5-.1v7.2h-49.1V182" class="st1"/>
+    <text class="st2" transform="rotate(-45 161.175 55.627)">
+        Optional — Marks completion
+    </text>
+    <text class="st2" transform="rotate(-45 171.8 29.976)">
+        Optional -- Marks priority
+    </text>
+    <text class="st2" transform="rotate(-45 198.684 -34.92)">
+        Optional -- Completion Date
+    </text>
+    <text transform="rotate(-45 237.935 -129.68)">
+        <tspan x="0" y="0" class="st2">Optional -- Creation Date</tspan>
+        <tspan x="0" y="12" class="st2">(must be specified if completion date is)</tspan>
+    </text>
+    <text transform="rotate(-45 352.18 -405.478)">
+        <tspan x="0" y="0" class="st2">Description; tags (optional)</tspan>
+        <tspan x="0" y="12" class="st2">can be placed anywhere in here</tspan>
+    </text>
+    <text class="st2" transform="rotate(45 -60.77 576.533)">
+        Project Tag
+    </text>
+    <text class="st2" transform="rotate(45 -17.238 681.627)">
+        Context tag
+    </text>
+    <text class="st2" transform="rotate(45 23.978 781.127)">
+        Special key/value tag
+    </text>
 </svg>
