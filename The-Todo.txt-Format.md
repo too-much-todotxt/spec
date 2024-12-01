@@ -129,13 +129,15 @@ This task doesn't have a creation date:
 
 ### Rule 3: Contexts and Projects may appear anywhere in the line *after* priority/prepended date.
 
-A context is preceded by a single space and an `@` sign. A project is
-preceded by a single space and a plus `+` sign. A project or context
-contains any non-whitespace character. A task may have zero, one, or
-more than one projects and contexts included in it.
+- A *context* is preceded by a single space and an at-sign (`@`).
+- A *project* is preceded by a single space and a plus-sign (`+`).
+- A *project* or *context* contains any non-whitespace character.
+- A *task* may have zero, one, or more than one *projects* and
+  *contexts* included in it.
 
-For example, this task is part of the `+Family` and `+PeaceLoveAndHappiness`
-projects as well as the `@iphone` and `@phone` contexts:
+For example, this task is part of the `+Family` and
+`+PeaceLoveAndHappiness` projects as well as the `@iphone` and `@phone`
+contexts:
 
     (A) Call Mom +Family +PeaceLoveAndHappiness @iphone @phone
 
