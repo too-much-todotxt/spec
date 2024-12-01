@@ -26,5 +26,12 @@ For more information see:
   * https://github.com/too-much-todotxt/spec/wiki/History
   * https://github.com/too-much-todotxt/spec/wiki/Short-Rules
 
-NOTE this is only tangentially related to https://github.com/todotxt/todo.txt
 Also see fork https://github.com/too-much-todotxt/legacy_todo.txt
+
+NOTE this specification is similar to https://github.com/todotxt/todo.txt/, with the following differences (as of 2024-12-01):
+
+  * Missing some of post-2016 changes, see https://github.com/too-much-todotxt/spec/issues/2
+  * Newlines in paragraphs for easier diffing (and reading as plain text)
+  * Pure 7-bit us-ascii
+  * Full history, under source code control
+  * Resolved [completed / done ambiguity and confusion](https://github.com/too-much-todotxt/spec/issues/5)
