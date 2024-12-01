@@ -34,4 +34,4 @@ NOTE this specification is similar to https://github.com/todotxt/todo.txt/, with
   * Newlines in paragraphs for easier diffing (and reading as plain text)
   * Pure 7-bit us-ascii
   * Full history, under source code control
-  * Resolved [completed / done ambiguity and confusion](https://github.com/too-much-todotxt/spec/issues/5)
+  * Resolved [completed / done ambiguity and confusion](https://github.com/too-much-todotxt/spec/issues/15)
