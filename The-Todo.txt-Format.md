@@ -156,10 +156,10 @@ This task has no projects in it:
 
 Two things indicate that a task has been completed.
 
-### Rule 1: A completed task starts with an x.
+### Rule 1: A completed task starts with an lowercase x character (`x`).
 
-If a task starts with an x (case-sensitive lowercase) followed directly
-by a space, it is complete.
+If a task starts with an `x` (case-sensitive and lowercase) followed
+directly by a space, it is marked as complete.
 
 This is a complete task:
 
