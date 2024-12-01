@@ -179,9 +179,14 @@ Two things indicate that a task has been completed.
 If a task starts with an `x` (case-sensitive and lowercase) followed
 directly by a space, it is marked as complete.
 
-This is a complete task:
+These a complete tasks:
 
     x 2011-03-03 Call Mom
+    x 2011-03-05 2011-03-03 Call Dad
+    x (A) pay water bill
+    x pay gas bill pri:A
+    x 2011-03-05 2011-03-03 pay electric bill pri:A
+    x 2011-03-29 pay taxes pri:A
 
 These are not complete tasks.
 
@@ -192,7 +197,7 @@ These are not complete tasks.
 We use a lowercase x so that completed tasks sort to the bottom of the
 task list using standard sort tools.
 
-### Rule 2: The date of completion appears directly after the x, separated by a space.
+### Rule 2: The date of completion **may** appear directly after the `x`, separated by a space.
 
 For example:
 
@@ -204,8 +209,12 @@ completed tasks sort by date using standard sort tools. Many Todo.txt
 clients discard priority on task completion. To preserve it, use the
 `key:value` format described below (for example, `pri:A`)
 
-With the completed date (required), if you've used the prepended date
-(optional), you can calculate how many days it took to complete a task.
+If a completed date and creation date are present you can calculate how
+many days it took to complete a task.
+
+NOTE both completion and creation date are OPTIONAL.
+This allows compatability with `todo.txt` files created either by hand or with `todo.sh` version 1.x.
+A number of tools follow the convention that `todo.sh` version 2.1 introduced in 2009 which is to auto include both dates.
 
 ## Additional File Format Definitions
 
