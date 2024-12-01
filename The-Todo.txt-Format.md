@@ -48,12 +48,13 @@ This is all possible inside `todo.txt`.
 
 ## `todo.txt` format rules
 
-<img align="right" src="./todo.txt_summary.svg" alt="Format Quick Reference Image"></span>Your
-Todo.txt is a plain text file. To take advantage of structured task
-metadata like priority, projects, context, creation and completion date,
+<img align="right" src="./todo.txt_summary.svg" alt="Format Quick Reference Image">
+
+Your `todo.txt` is a plain text file. To take advantage of structured task
+metadata like priority, projects, context, creation, and completion date,
 there are a few simple but flexible file format rules.
 
-Philosophically, the Todo.txt file format has two goals:
+Philosophically, the `todo.txt` file format has two goals:
 
 - The file contents should be human-readable without requiring any tools
   other than a plain text viewer or editor.
