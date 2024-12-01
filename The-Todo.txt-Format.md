@@ -15,12 +15,14 @@ Using special notation in todo.txt, you can create a list that's
 sliceable by 3 key axes.
 
 ### Priority
+
 Your todo list should be able to tell you what's the next
 most important thing for you to get done - either by project or by
 context or overall. You can optionally assign tasks a priority that'll
 bubble them up to the top of the list.
 
 ### Project
+
 The only way to move a big project forward is to tackle a
 small subtask associated with it. Your todo.txt should be able to list
 out all the tasks specific to a project.
@@ -31,6 +33,7 @@ that project along. "Clean out the garage" isn't a good todo item; but
 "Call Goodwill to schedule pickup" in the "Clean out garage" project is.
 
 ### Context
+
 [Getting Things Done](https://en.wikipedia.org/wiki/Getting_Things_Done) author David
 Allen suggests splitting up your task lists by context - ie, the place
 and situation where you'll work on the job. Messages that you need to
