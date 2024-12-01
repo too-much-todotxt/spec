@@ -85,19 +85,17 @@ todo.txt file might look like this:
     Post signs around the neighborhood +GarageSale
     @GroceryStore Eskimo pies
 
-A script that perhaps slices out the `@phone` contextual items and
-emails them to your mobile phone, for instance, would just output:
+A search and filter for the `@phone` contextual items would return:
 
     (A) Thank Mom for the meatballs @phone 
     (B) Schedule Goodwill pickup +GarageSale @phone
 
-A call to `todo.sh` to just see the garage sale project items would
-return:
+To just see the `+GarageSale` project items would return:
 
     (B) Schedule Goodwill pickup +GarageSale @phone
     Post signs around the neighborhood +GarageSale
 
-There are three formatting rules for current to-do's.
+There are three formatting rules for current todo's.
 
 ### Rule 1: If priority exists, it ALWAYS appears first.
 
