@@ -45,7 +45,7 @@ This is all possible inside todo.txt.
 
 ## Todo.txt format rules
 
-<img align="right" src="./todo.txt_summary.png" alt="Format Quick Reference Image"></span>Your
+<img align="right" src="./todo.txt_summary.svg" alt="Format Quick Reference Image"></span>Your
 Todo.txt is a plain text file. To take advantage of structured task
 metadata like priority, projects, context, creation and completion date,
 there are a few simple but flexible file format rules.
