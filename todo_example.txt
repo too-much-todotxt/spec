@@ -1,8 +1,24 @@
-(A) Call Mom @Phone +Family
+﻿(A) Call Mom @Phone +Family
 (A) Schedule annual checkup +Health
 (B) Outline chapter 5 +Novel @Computer
 (C) Add cover sheets @Office +TPSReports
 Plan backyard herb garden @Home
 Pick up milk @GroceryStore
 Research self-publishing services +Novel @Computer
+(D) d priority
+(E) e priority
+(F) f priority
+(G) g priority
+(Z) z priority
+Check status of order number 123456-12-11-121
+Check status of order number 123456-12-11-33
+write down friends birthday of 1901-02-03
+(E) key:value immediately after a priority
+buy new USB hardrive p:1
+write up report p:5
+p:3 something else to do
+blocks:p1 put money in bank key:value
+2025-01-12 note backup due:2025-01-31 hide:1 rec:1b rec2:+2w p:2 blocks:p5
+Unicode key values emjoi:😜 smile:🙂
+x 2025-01-12 2025-01-12 calendar backup
 x Download Todo.txt mobile app @Phone
