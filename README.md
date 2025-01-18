@@ -9,7 +9,8 @@ This specification is based on the 2006 todo.txt described by
   2. todotxt.com - NOTE no longer available, redirects to todotxt.org
   3. http://todotxt.org/todo.txt
 
-Example from http://todotxt.org/todo.txt (2024-12-01 10:46)
+Example from http://todotxt.org/todo.txt (2024-12-01 10:46), which also
+matches 2017 demo sample https://web.archive.org/web/20170826220700/http://todotxt.org/todo.txt
 
     (A) Call Mom @Phone +Family
     (A) Schedule annual checkup +Health
