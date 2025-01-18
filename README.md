@@ -2,7 +2,7 @@
 
 https://github.com/too-much-todotxt/spec/
 
-This specification is based on the 2006 todo.txt described by
+[This specification](./The-Todo.txt-Format.md) is based on the 2006 todo.txt described by
 [Gina Trapani](https://github.com/ginatrapani) in:
 
   1. lifehacker.com
