@@ -226,3 +226,5 @@ metadata (e.g. `due:2010-01-02` as a due date).
 
 Both `key` and `value` must consist of non-whitespace characters, which
 are not colons. Only one colon separates the `key` and `value`.
+
+See [known conventions for key:value](https://github.com/too-much-todotxt/spec/issues/23).
