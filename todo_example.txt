@@ -22,3 +22,5 @@ blocks:p1 put money in bank key:value
 Unicode key values emjoi:😜 smile:🙂
 x 2025-01-12 2025-01-12 calendar backup
 x Download Todo.txt mobile app @Phone
+x Get Tetanus shot +Health
+x Buy malaria tablets +ExoticVaction
