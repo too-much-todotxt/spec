@@ -21,6 +21,8 @@ matches 2017 demo sample https://web.archive.org/web/20170826220700/http://todot
     Research self-publishing services +Novel @Computer
     x Download Todo.txt mobile app @Phone
 
+More example entries [todo_example.txt](./todo_example.txt).
+
 For more information see:
 
   * [The-Todo.txt-Format.md](./The-Todo.txt-Format.md)
