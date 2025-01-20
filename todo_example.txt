@@ -20,6 +20,8 @@ p:3 something else to do
 blocks:p1 put money in bank key:value
 2025-01-12 note backup due:2025-01-31 hide:1 rec:1b rec2:+2w p:2 blocks:p5
 Unicode key values emjoi:😜 smile:🙂
+Check notifications at https://someserver.com @Office
+Email someone@somecompany.com about that thing  @Office @Computer
 x 2025-01-12 2025-01-12 calendar backup
 x Download Todo.txt mobile app @Phone
 x Get Tetanus shot +Health
