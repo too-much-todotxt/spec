@@ -1,6 +1,12 @@
-﻿(A) Call Mom @Phone +Family
+-*- coding: utf-8 -*-
+Ensure https://github.com/too-much-todotxt/spec/wiki/Syntax-Highlighting#sample-todotxt-file is up-to-date
+(A) Call Mom @Phone +Family
+(A) 2025-06-09 Call Dad @Phone +Family
+x 2025-06-09 2025-06-09 Call Sister @Phone +Family pri:A
 (A) Schedule annual checkup +Health
+x 2025-06-09 2025-06-09 Outline chapter 4 +Novel @Computer pri:B
 (B) Outline chapter 5 +Novel @Computer
+(B) 2025-06-09 Outline chapter 6 +Novel @Computer
 (C) Add cover sheets @Office +TPSReports
 Plan backyard herb garden @Home
 Pick up milk @GroceryStore
@@ -10,8 +16,9 @@ Research self-publishing services +Novel @Computer
 (F) f priority
 (G) g priority
 (Z) z priority
-Check status of order number 123456-12-11-121
-Check status of order number 123456-12-11-33
+Check status of order number 123456-12-11-121 do not match date
+Check status of order number 123456-12-11-33 do not match date
+(D not match priority) test
 write down friends birthday of 1901-02-03
 (E) key:value immediately after a priority
 buy new USB hardrive p:1
@@ -19,10 +26,10 @@ write up report p:5
 p:3 something else to do
 blocks:p1 put money in bank key:value
 2025-01-12 note backup due:2025-01-31 hide:1 rec:1b rec2:+2w p:2 blocks:p5
-Unicode key values emjoi:😜 smile:🙂
-Check notifications at https://someserver.com @Office
-Email someone@somecompany.com about that thing  @Office @Computer
+Unicode key values emjoi:😜 smile:😀
+Check notification at https://someserver.com @Office
+Email someone@somecompany.com about that thing @Office @Computer
 x 2025-01-12 2025-01-12 calendar backup
 x Download Todo.txt mobile app @Phone
 x Get Tetanus shot +Health
-x Buy malaria tablets +ExoticVaction
+x Buy malaria tablets +ExoticVacation
