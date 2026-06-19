@@ -4,6 +4,8 @@ A complete primer on the whys and hows of `todo.txt`.
 
 Latest version located at https://github.com/too-much-todotxt/spec/blob/main/The-Todo.txt-Format.md
 
+[Korean (한국어)](./The-Todo.txt-Format.ko.md)
+
 The first and most important rule of todo.txt:
 
 > A single line in your todo.txt text file represents a single task.
@@ -109,7 +111,7 @@ todo.txt file might look like this:
 
 A search and filter for the `@phone` contextual items would return:
 
-    (A) Thank Mom for the meatballs @phone 
+    (A) Thank Mom for the meatballs @phone
     (B) Schedule Goodwill pickup +GarageSale @phone
 
 To just see the `+GarageSale` project items would return:
