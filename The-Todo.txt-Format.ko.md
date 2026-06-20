@@ -1,6 +1,11 @@
+-*- coding: utf-8 -*-
+
 # todo.txt 형식
 
 [English](./The-Todo.txt-Format.md) | [Korean (한국어)](./The-Todo.txt-Format.ko.md)
+
+<!-- NOTE this maybe out of sync with the original English version -->
+참고: 이 내용은 원문(영어)과 일치하지 않을 수 있습니다.
 
 todo.txt의 이유와 방법에 대한 완벽한 입문서입니다.
 
