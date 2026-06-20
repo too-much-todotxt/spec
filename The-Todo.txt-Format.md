@@ -236,8 +236,8 @@ The non-ASCII `öl wechseln  -- change the oil / oil change` entry will sort cor
 Possible workarounds:
 
  1. Adding a creation date works very well, which automated tools typically do.
- 2. Adding a Pririoty works very well.
- 3. Uppercasing the first letter - easy for hand editing
+ 2. Adding a Priority works very well.
+ 3. Upper-casing the first letter - easy for hand editing
  4. Reword or rephrase, for example, `take xylophone lesson`, `goto xylophone lesson`, `book xylophone lesson`, etc.
  5. Prefix with a suitable sorting character, for example, space ` `, underscore / under bar `_`, dot / period / full-stop `.` - but this does impact the sort order differently - easy for hand editing
 
