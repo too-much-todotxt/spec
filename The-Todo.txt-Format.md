@@ -1,3 +1,6 @@
+<!--
+-*- coding: utf-8 -*-
+-->
 # todo.txt format
 
 A complete primer on the whys and hows of `todo.txt`.
@@ -197,7 +200,49 @@ These are not complete tasks.
     (A) x Find ticket prices
 
 We use a lowercase x so that completed tasks sort to the bottom of the
-task list using standard sort tools.
+task list using standard sort tools. ** Exception!** completed items are
+not guaranteed to sort to the bottom of the list, if the item description
+does not start with an upper-case ASCII character.
+
+Here are some example valid todo items that do NOT sort before
+completed "x ..." items:
+
+    -*- coding: utf-8 -*-
+    telegram needs to be sent
+    xray appointment
+    öl wechseln  -- change the oil / oil change
+    xylophone lesson
+    youtube lecture
+    Xanthan gum purchase
+    x Find ticket prices
+
+From this example;
+
+    xray appointment
+    xylophone lesson
+    youtube lecture
+
+will sort after the completed entry.
+
+The non-English `öl wechseln  -- change the oil / oil change` entry will sort at the end of the list when
+using GNU sort in default locale compare mode.
+
+The non-ASCII `öl wechseln  -- change the oil / oil change` entry will sort correctly with:
+
+  * Microsoft Windows sort.exe
+  * old Unix sort
+  * GNU Linux sort when used with `--dictionary-order` to ignore locale
+
+Possible workarounds:
+
+ 1. Adding a creation date works very well, which automated tools typically do.
+ 2. Adding a Priority works very well.
+ 3. Upper-casing the first letter - easy for hand editing
+ 4. Reword or rephrase, for example, `take xylophone lesson`, `goto xylophone lesson`, `book xylophone lesson`, etc.
+ 5. Prefix with a suitable sorting character, for example, space ` `, underscore / under bar `_`, dot / period / full-stop `.` - but this does impact the sort order differently - easy for hand editing
+
+See https://github.com/too-much-todotxt/spec/issues/32 for more information.
+
 
 ### Rule 2: The date of completion **may** appear directly after the `x`, separated by a space.
 
